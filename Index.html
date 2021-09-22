@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr"> 
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/Index.css">
     <title>Checkout</title>
   </head>
   <body>
@@ -36,6 +37,40 @@
         <br><label for="exampleInputciudad" class="form-label">Ciudad</label><br>
         <input type="ciudad" class="form-control" id="exampleInputciudad" aria-describedby="ciudadHelp">
     </div>
+    <div class="pais">
+        <br><label for="exampleInputpais" class="form-label">Pais</label><br>
+        <input type="pais" class="form-control" id="exampleInputpais" aria-describedby="paisHelp">
+    </div>
+    <div class="codigo-postal">
+        <br><label for="exampleInputpostal" class="form-label">Codigo Postal</label><br>
+        <input type="postal" class="form-control" id="exampleInputpostal" aria-describedby="postalHelp">
+    </div>
+    <div class="check">
+        <input class="check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+        <label class="check-label" for="flexCheckIndeterminate">
+            Guarde esta información para la próxima vez
+        </label>
+      </div>
+      <br><button type="button" class="btn btn-warning">Continuar</button><br>
+      
+      <div class="rectangulo" style="width: 18rem;">
+        <img src="./Imagenes/photo1.png" class="card-img1" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mochila Vintage </h5>
+          <p class="card-text">$54.99</p>
+          <button class="btn" type="button" id="menos">-</button>
+          <input id="cantidad" type="text" style="text-align: center;" value="1">
+          <button class="btn" type="button" id="mas">+</button>
+
+          <img src="./Imagenes/photo2.png" class="card-photo2" alt="...">
+        <div class="card-body2">
+          <h5 class="card-title">Zapatos Levi </h5>
+          <p class="card-text">$74.99</p>
+          <button class="btn" type="button" id="menos">-</button>
+          <input id="cantidad" type="text" style="text-align: center;" value="1">
+          <button class="btn" type="button" id="mas">+</button>
+        </div>
+       
 </main>
   </body>
 </html>
