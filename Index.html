@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr"> 
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/Index.css">
     <title>Checkout</title>
   </head>
@@ -16,34 +16,34 @@
     </div>
     <div class="email">
         <br><label for="exampleInputEmail1" class="form-label">Email address</label><br>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="email" class="form-control-email" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
     <div class="phone">
         <br><label for="exampleInputPhone" class="form-label">Phone</label><br>
-        <input type="phone" class="form-control" id="exampleInputphone" aria-describedby="phoneHelp">
+        <input type="phone" class="form-control-phone" id="exampleInputphone" aria-describedby="phoneHelp">
     </div>
     <div class="direccion-envio"><br>
         <h2>Dirección de Envío</h2>
     </div>
     <div class="nombre">
         <br><label for="exampleInputNombre" class="form-label">Nombre Completo</label><br>
-        <input type="nombre" class="form-control" id="exampleInputnombre" aria-describedby="nombreHelp">
+        <input type="nombre" class="form-control-nombre" id="exampleInputnombre" aria-describedby="nombreHelp">
     </div>
     <div class="direccion">
         <br><label for="exampleInputdireccion" class="form-label">Direccion</label><br>
-        <input type="direccion" class="form-control" id="exampleInputdireccion" aria-describedby="direccionHelp">
+        <input type="direccion" class="form-control-direccion" id="exampleInputdireccion" aria-describedby="direccionHelp">
     </div>
     <div class="ciudad">
         <br><label for="exampleInputciudad" class="form-label">Ciudad</label><br>
-        <input type="ciudad" class="form-control" id="exampleInputciudad" aria-describedby="ciudadHelp">
+        <input type="ciudad" class="form-control-ciudad" id="exampleInputciudad" aria-describedby="ciudadHelp">
     </div>
     <div class="pais">
         <br><label for="exampleInputpais" class="form-label">Pais</label><br>
-        <input type="pais" class="form-control" id="exampleInputpais" aria-describedby="paisHelp">
+        <input type="pais" class="form-control-pais" id="exampleInputpais" aria-describedby="paisHelp">
     </div>
     <div class="codigo-postal">
         <br><label for="exampleInputpostal" class="form-label">Codigo Postal</label><br>
-        <input type="postal" class="form-control" id="exampleInputpostal" aria-describedby="postalHelp">
+        <input type="postal" class="form-control-codigo" id="exampleInputpostal" aria-describedby="postalHelp">
     </div>
     <div class="check">
         <input class="check-input" type="checkbox" value="" id="flexCheckIndeterminate">
@@ -53,24 +53,22 @@
       </div>
       <br><button type="button" class="btn btn-warning">Continuar</button><br>
       
-      <div class="rectangulo" style="width: 18rem;">
+      <div class="rectangulo" style="width: 31rem;">
         <img src="./Imagenes/photo1.png" class="card-img1" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Mochila Vintage </h5>
-          <p class="card-text">$54.99</p>
-          <button class="btn" type="button" id="menos">-</button>
-          <input id="cantidad" type="text" style="text-align: center;" value="1">
-          <button class="btn" type="button" id="mas">+</button>
-
-          <img src="./Imagenes/photo2.png" class="card-photo2" alt="...">
-        <div class="card-body2">
-          <h5 class="card-title">Zapatos Levi </h5>
-          <p class="card-text">$74.99</p>
-          <button class="btn" type="button" id="menos">-</button>
-          <input id="cantidad" type="text" style="text-align: center;" value="1">
-          <button class="btn" type="button" id="mas">+</button>
+        <div class="card-body1">
+          <h4 class="card-title">Mochila Vintage </h4>
+          <p class="card-text-ving1">$54.99</p> 
+          <p class="card-text-ving2">$94.99 </p>
+          <input type="number">
         </div>
-       
+        <img src="./Imagenes/photo2.png" class="card-photo2" alt="...">
+        <div class="card-body2">
+          <h4 class="card-title">Zapatos Levi </h4>
+          <p class="card-text">$74.99</p>
+          <p class="card-text">$124.99</p>
+          <input type="number">
+        </div>
+     
 </main>
   </body>
 </html>
