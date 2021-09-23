@@ -5,16 +5,19 @@ html{
 }
 body{
     position: relative;
-    top: 0px; left: 100px;
+    top: -25px; left: 100px;
 }
-.form-control-email,.form-control-phone,.form-control-nombre,.form-control-direccion,.form-control-ciudad,.form-control-pais,.form-control-codigo {
+.form-control {
     width: 300px;
     height: 30px;
-    left: 140px;
-    top: 211px;
     border: 1px solid #828282;
     box-sizing: border-box;
     border-radius: 12px;
+    position: relative;
+    top: -15px; left: 0px;
+}.form-label {
+    position: relative;
+    top: -20px; left: 0px;
 }
 .rectangulo{
     position: relative;
@@ -25,20 +28,59 @@ body{
 	border-radius: 6px;
 	overflow: hidden;
 	margin: 5em auto; 
-    height: 745px;   
+    height: 560px;   
 }
 .card-title
 {
+    
     color: rgb(44, 44, 44);
+    font-size:21px;
 
-}
-.card-body1, .card-body2{
-
+}.card-body1, .card-body2
+{
     position: relative;
-    top: -280px; left: 300px;
+    top: -250px; left: 295px;
+    font-size:25px;
+}
+.card-text-ving1, .card-text1{
+
+    color:rgb(251, 136, 58);
 }
 .card-img1,.card-photo2
 {
     position: relative;
     top: 15px; left: 15px;
+    
+}
+.card-photo2{
+    position: relative;
+    top: -165px; left: 15px;
+}
+.card-text-ving2,.card-text2{
+    position: relative;
+    top: -50px; left: 130px;
+    font-size:20px;
+    
+}
+.card-body2{
+    position: relative;
+    top: -435px; left:px; 
+}
+.btn-continuar{
+    font-size:15px;
+    font-family: montserrat;
+     color:white;
+    background:#ff8800;
+    border: 6px;
+    width:100px;
+    height:40px;
+    position: relative;
+    top: 30px; left: 420px; 
+}.contacto{
+    position: relative;
+    top: 10px; left: 0px;
+}.direccion-envio
+{
+    position: relative;
+    top: -25px; left: 0px;
 }
