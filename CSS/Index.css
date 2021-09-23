@@ -7,7 +7,7 @@ body{
     position: relative;
     top: -25px; left: 100px;
 }
-.form-control {
+.form-control,.form-control1 {
     width: 300px;
     height: 30px;
     border: 1px solid #828282;
@@ -21,14 +21,14 @@ body{
 }
 .rectangulo{
     position: relative;
-    top: -750px; left: 130px;
+    top: -820px; left: 130px;
     box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
 	background: rgb(221, 216, 216);
 	text-align: left;
 	border-radius: 6px;
 	overflow: hidden;
 	margin: 5em auto; 
-    height: 560px;   
+    height: 680px;   
 }
 .card-title
 {
@@ -50,6 +50,8 @@ body{
 {
     position: relative;
     top: 15px; left: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
     
 }
 .card-photo2{
@@ -69,18 +71,39 @@ body{
 .btn-continuar{
     font-size:15px;
     font-family: montserrat;
+    font-weight: 200;
      color:white;
     background:#ff8800;
-    border: 6px;
     width:100px;
-    height:40px;
+    height:50px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 10px;
     position: relative;
-    top: 30px; left: 420px; 
+    top: -40px; left: 518px; 
+    
 }.contacto{
     position: relative;
     top: 10px; left: 0px;
 }.direccion-envio
 {
     position: relative;
-    top: -25px; left: 0px;
+    top: -30px; left: 0px;
+}.codigo-postal{
+    position: relative;
+    top: -64px; left: 320px;
+} .form-control1{
+    position: relative;
+    top: -36px; left:0px;
+}.check{
+    position: relative;
+    top: -100px; left:0px;
+}.card-title-transporte,.card-text1-Total{
+    position: relative;
+    top: 45px; left:-270px;
+    color: rgb(44, 44, 44);
+}.card-title-transporte-total,.card-text1-Total-total{
+    position: relative;
+    top:-81px; left:0px;
+    color: rgb(117, 115, 115);
 }
